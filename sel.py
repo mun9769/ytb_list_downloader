@@ -9,7 +9,7 @@ class Application(threading.Thread):
         threading.Thread.__init__(self)
     
     def run(self):
-        subprocess.call("C://Program Files//4KDownload//4kvideodownloader//4kvideodownloader.exe")
+        subprocess.call("C://Program Files (x86)//4KDownload//4kvideodownloader//4kvideodownloader.exe")
 app = Application()
 app.start()
 
